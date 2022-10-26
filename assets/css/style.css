@@ -501,6 +501,11 @@ ul {
     width: 35px;
     height: 30px;
   }
+  
+  .menu-item {
+    padding: 40px 0;
+    font-size: 28px;
+  }
 
   .header__logo {
     transform: translate(-30%, 0%)

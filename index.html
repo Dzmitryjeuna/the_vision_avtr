@@ -21,9 +21,27 @@
   <header class="header">
     <div class="container">
       <div class="header__top">
-        <button class="header__nav">
-          <img class="header__nav-img" src="assets/img/icons/menu_btn.svg" alt="menu button">
-        </button>
+
+
+        <button type="button" class="menu-btn">
+               <span class="btn-line"></span>
+               <span class="btn-line"></span>
+               <span class="btn-line"></span>
+               <span class="btn-line"></span>
+            </button>
+            <ul class="menu">
+              <li class="menu-item">
+                 <a href="#concept" class="menu-link">CONCEPT</a>
+              </li>
+              <li class="menu-item">
+                 <a href="#preimer" class="menu-link">PREIMER</a>
+              </li>
+              <li class="menu-item">
+                 <a href="#interior" class="menu-link">INTERIOR & EXTERIOR</a>
+              </li>
+           </ul>
+
+
         <a class="logo">
           <img class=" header__logo logo__img" src="assets/img/icons/logo.svg" alt="logo">
         </a>
@@ -52,7 +70,7 @@
     </div>
   </header>
 
-  <section class="concept">
+  <section id="concept" class="concept">
     <div class="container">
       <div class="concept__inner">
         <h3 class="concept__title section__title">
@@ -65,7 +83,7 @@
     </div>
   </section>
 
-  <section class="preimer">
+  <section id="preimer" class="preimer">
     <div class="container">
       <div class="preimer__inner">
         <div class="preimer__column">
@@ -107,7 +125,7 @@
     </div>
   </div>
 
-  <section class="design">
+  <section id="interior" class="design">
 
     <div class="container">
       <div class="design__interior" style="
@@ -220,6 +238,7 @@
   <script src="./assets/js/slick.min.js"></script>
   <script src="./assets/js/jquery.fancybox.min.js"></script>
   <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
